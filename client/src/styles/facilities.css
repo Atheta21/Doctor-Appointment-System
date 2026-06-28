@@ -1,0 +1,44 @@
+.facilities{
+  padding:70px 10%;
+  background:#eaf2ff;   /* soft blue background */
+  text-align:center;
+}
+
+.section-title{
+  font-size:36px;
+  margin-bottom:40px;
+  color:#1f2b6c;
+}
+
+.facilities-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:25px;
+}
+
+.facility-box{
+  background:white;        /* clean card look */
+  padding:15px;
+  border-radius:10px;
+  transition:0.3s;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.facility-box svg{
+  font-size:30px;
+  color:#889df0;   /* softer blue icon */
+  margin-bottom:10px;
+}
+
+.facility-box h3{
+  color:#1f2b6c;
+}
+
+.facility-box p{
+  color:#666;
+  font-size:14px;
+}
+
+.facility-box:hover{
+  transform:translateY(-5px);
+}

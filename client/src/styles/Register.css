@@ -1,0 +1,30 @@
+/* Register Page Styling */
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+}
+
+.register-card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border: none;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+}

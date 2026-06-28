@@ -1,0 +1,40 @@
+.about{
+  padding:80px 10%;
+  background:#f6fbff;
+}
+
+.about-container{
+  display:flex;
+  align-items:center;
+  gap:50px;
+}
+
+.about-image img{
+  width:450px;
+  border-radius:10px;
+}
+
+.about-text h2{
+  font-size:36px;
+  color:#1f2b6c;
+  margin-bottom:20px;
+}
+
+.about-text p{
+  margin-bottom:15px;
+  color:#555;
+  line-height:1.6;
+}
+
+.about-btn{
+  padding:12px 28px;
+  background:#212d72;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  margin-top:10px;
+}
+.about-btn:hover{
+  background:#2e439a;
+}
